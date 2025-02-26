@@ -1,0 +1,60 @@
+/* Reset default margins and paddings */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders don't affect width */
+}
+
+/* Header styling */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("C:/Users/LOQ/Desktop/html/pictures/Pictures of Ship Wheels 4K HD Wallpapers.jpg"); /* Corrected path */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Body styling with background image */
+body {
+    background-image: url("C:/Users/LOQ/Desktop/myprojects/html/pictures/wallpaper.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: white; /* Ensures text is visible */
+}
+/* General button styling */
+.button, .my-button, button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* Hover effects for all buttons */
+.button:hover, .my-button:hover, button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Specific styling for the .button class */
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF; /* Blue */
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Hover effect for .button class */
+.button:hover {
+    background-color: #0056b3; /* Darker blue */
+}

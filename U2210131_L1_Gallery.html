@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Captain Jack Sparrow</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+        body {
+            font-family: cursive, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .black-text{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="black-text"> Gallery </h1>
+
+    <div class="gallery">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\5e1616b5204382cb44d00bf77932c5aa.jpg" alt="Jack Sparrow 1">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\8ecbdf3b760ad22e05f5b8e6fa3a103e.jpg" alt="Jack Sparrow 2">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\59c19fd86ddee9b22473cb1e6d0ccc20.jpg" alt="Jack Sparrow 3">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\72dd2c0f7fa04acf20c5e3a68ce51e21.jpg" alt="Jack Sparrow 4">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\a9de92f8f850530bfce96a5199b0773e.jpg" alt="Jack Sparrow 5">
+        <img src="C:\Users\LOQ\Desktop\myprojects\html\pictures\e1e13a15e6ebbb045cc777e9c4bd81fb.jpg" alt="Jack Sparrow 6">
+    </div>
+
+    <center>
+        <a href="U2210131_L1_Main.html" class="button"><h3>Home</h3></a>
+        <a href="U2210131_L1_About.html" class="button"><h3>About</h3></a>
+        <a href="U2210131_L1_Gallery.html" class="button"><h3>Gallery</h3></a>
+        <a href="U2210131_L1_Movies.html" class="button"><h3>Movies</h3></a>
+    </center>
+</body>
+</html>
